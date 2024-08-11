@@ -1,3 +1,0 @@
-# hapus tulisan aktivate windows
-buka cmd ketik:
-bcdedit -set SIGNING OFF

@@ -1,0 +1,14 @@
+# hapus tulisan aktivate windows
+buka cmd ketik:
+bcdedit -set AUTOSIGNING OFF
+
+# hapus tulisan aktivate windows
+- RUN => REGEDIT
+- cari HKEY_CURRENT_USER
+- Pilih folder Control Panel
+- pilih Desktop
+- Jika sudah, scroll ke bawah
+- pilih PaintDesktopVersion dengan ketuk dua kali
+- Jika sudah terbuka, pilih Hexadecimal dan ubah Value Data menjadi 0
+- Klik OK dan Close
+- Lakukan Restart terlebih dahulu dan tulisan Activate Windows akan terhapus
