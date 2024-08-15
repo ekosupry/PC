@@ -1,6 +1,6 @@
 # hapus tulisan aktivate windows
 buka cmd ketik:
-bcdedit -set AUTOSIGNING OFF
+bcdedit -set TESTSIGNING off
 
 # hapus tulisan aktivate windows
 - RUN => REGEDIT
