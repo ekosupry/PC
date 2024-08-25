@@ -1,0 +1,28 @@
+# cara ganti ip auto
+ubah Password Modem admin123
+
+C/P scrip di terminal :
+langkah 1:
+
+bash -c "$(wget -qO - 'https://raw.githubusercontent.com/aryobrokolly/menghilink/master/setup.sh')"
+
+langkah 2:
+B860H:
+
+rm -f /usr/bin/bled && wget -O /usr/bin/bled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/bled && chmod +x /usr/bin/bled && /usr/bin/bled -r
+
+Hg680:
+rm -f /usr/bin/hgled && wget -O /usr/bin/hgled https://raw.githubusercontent.com/aryobrokolly/menghilink/main/bled-hgled/hgled && chmod +x /usr/bin/hgled && /usr/bin/hgled -r
+
+# Setingan update date
+sleep 15 && ntpdate 0.id.pool.ntp.org
+
+# SETING LED
+upload file bin ke System fileman usr bin
+( ganti permision 0755 )
+Masuk ke System Startup ( masukan script di bawah lalu save )
+sleep 5 && /usr/bin/bled -r
+atau
+# Masuk ke Terminal 
+/usr/bin/bled -r
+
