@@ -26,3 +26,9 @@ atau
 # Masuk ke Terminal 
 /usr/bin/bled -r
 
+# install watchat
+opkg update && opkg install luci-app-watchcat watchcat
+
+#install rakitanmanager
+Copy Script Di Bawah Dan Paste Di Terminal
+bash -c "$(wget -qO - 'https://raw.githubusercontent.com/rtaserver/RakitanManager/dev/install.sh')"
