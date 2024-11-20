@@ -32,3 +32,9 @@ opkg update && opkg install luci-app-watchcat watchcat
 #install rakitanmanager
 Copy Script Di Bawah Dan Paste Di Terminal
 bash -c "$(wget -qO - 'https://raw.githubusercontent.com/rtaserver/RakitanManager/dev/install.sh')"
+
+#Ganti imei modem e5372
+AT^CIMEI="8634*****"
+
+#Setelah ganti imei, permanen kan!
+AT^INFORBU
